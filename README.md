@@ -1,4 +1,6 @@
-Steps to use this tool
+Note: This only works for desktop website of spotify only
+
+**Steps to use this tool**
 
 1. create a bookmark
 2. in the URL field past the content of the file [browserExtension.js](https://github.com/himanshumeena/mutify/blob/master/browserExtension.js)
