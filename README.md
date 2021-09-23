@@ -1,4 +1,4 @@
-Note: This only works for desktop website of spotify only
+Note: This only works for desktop website of spotify
 
 **Steps to use this tool**
 
