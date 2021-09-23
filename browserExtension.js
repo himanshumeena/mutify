@@ -1,10 +1,12 @@
 javascript: (function () {
-  const targetNode = document.getElementsByClassName("i0XB7255K_4QFLJsSGc_")[0];
-  const config = { childList: true };
+  const targetNode = document.querySelector(
+    "[data-testid='control-button-skip-forward']"
+  );
+  const config = { attributes: true };
 
   const callback = function (mutationsList, observer) {
     for (const mutation of mutationsList) {
-      if (mutation.type === "childList") {
+      if (mutation.type === "attributes") {
         console.log("mutify..........");
         document.getElementsByClassName("volume-bar__icon-button")[0].click();
       }
