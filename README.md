@@ -14,3 +14,6 @@ Note: This only works for desktop website of spotify
 Now advertisements will be muted automatically and vice versa
 
 Enjoy !!
+
+
+For feedback and suggestions you can mail me: him.10meena@gmail.com
