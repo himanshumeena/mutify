@@ -1,4 +1,5 @@
 javascript: (function () {
+  try {
   const nextSongBtn = document.querySelector(
     "[data-testid='control-button-skip-forward']"
   );
@@ -29,4 +30,7 @@ javascript: (function () {
   const observer = new MutationObserver(callback);
   observer.observe(nextSongBtn, config);
   console.log("observing...........");
+  } catch (err) {
+    console.log("oopss....", err);
+  }
 })();
